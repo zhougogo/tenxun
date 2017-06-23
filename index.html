@@ -6,6 +6,10 @@
 		<meta name="viewport" content="width=640,target-densitydpi=device-dpi,user-scalable=no">
 		<title></title>
 		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
 			#videoCon{
 				width: 640px;
 				height: 1038px;
@@ -29,7 +33,7 @@
 			//设置播放器初始化时加载的视频
 			player.setCurVideo(video);
 			 //是否自动播放
-			player.addParam("autoplay","1");
+			player.addParam("autoplay","0");
 			//结束是否有广告
 			player.addParam('showend','0');
 			//设置透明化
